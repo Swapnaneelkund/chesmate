@@ -4,16 +4,6 @@ Welcome to the **Chess Game** project! This is a real-time multiplayer chess gam
 
 ## Table of Contents
 
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - 👫 **Multiplayer**: Play chess with another player in real-time.
