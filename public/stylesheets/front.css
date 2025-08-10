@@ -1,0 +1,82 @@
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-image: url('/042225_sg_scrambled-chess_feat.webp');
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.65);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .title {
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+
+    .subtitle {
+      color: #ccc;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .play-button {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      background-color: #ffd700;
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .play-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    @media screen and (max-width: 768px) {
+      .title {
+        font-size: 2rem;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+      }
+
+      .play-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+      }
+    }
+  
