@@ -2,6 +2,8 @@
 
 Welcome to the **Chess Game** project! This is a real-time multiplayer chess game built with modern web technologies, allowing players to connect and play chess online. This project utilizes **Node.js**, **Express**, **Socket.IO**, and **Chess.js** to provide a seamless and interactive chess-playing experience.
 
+## LIVE DEMO:
+https://chesmate.onrender.com/
 ## Table of Contents
 
 ## Features
