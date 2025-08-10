@@ -66,8 +66,8 @@ Follow these instructions to set up the project on your local machine.
 ├── public
 │   ├── css
 │   │   └── styles.css       # CSS for styling the chessboard
-│   ├── js
-│   │   └── chessgame.js     # Client-side
+│   ├── js ___chessgame.js
+│   │___stylesheets       
 ├── views
 │   └── index.ejs            # EJS template for the main page
 ├── app.js                   # Main server-side application
